@@ -1,0 +1,73 @@
+* {
+    /* margin, border and padding affect the position of the targeted element */
+    /* the astrics is the universal selctor */
+    /* box sizing allows you to include the padding and border in the width and height of element */
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    /* display property, most important positioning property, 
+    by default elements are block, display flex (refresh flexbox) */
+
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: top;
+    height: 100vh;
+    background-image: url("./src/sergi-kabrera-2xU7rYxsTiM-unsplash.jpg");
+    position: relative;
+}
+
+.landingpage-text {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.logoContainer, .nav-links {
+    display: flex;
+}
+
+.logoContainer {
+    flex: 1;
+    margin-top: 2%;
+}
+
+h1{
+    margin-left: 10%;
+}
+
+nav {
+    flex: 1;
+    margin-top: 2.5%;
+
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+.nav-link {
+    color: #5f5f79;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.second-section {
+    height: 100vh;
+}
+
+
+.third-section {
+    height: 100vh;
+}
