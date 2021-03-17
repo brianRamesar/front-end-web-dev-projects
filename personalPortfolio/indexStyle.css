@@ -71,7 +71,8 @@ nav {
 .landing-page-container {
     height: 80%;
     width: 100%;
-    background-color: rgba(34, 34, 34, 0.329);
+    border-radius: 20px;
+    background-color: rgba(34, 34, 34, 0.685);
     box-shadow: 1px 0px 30px rgb(29, 29, 29);
     display: flex;
 }
