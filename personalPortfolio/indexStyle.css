@@ -23,14 +23,11 @@ header{
     align-items: top;
     height: 100vh;
     background-image: url("./src/sergi-kabrera-2xU7rYxsTiM-unsplash.jpg");
+    background-size: cover;
     position: relative;
 }
 
-.landingpage-text {
-    position: absolute;
-    margin-top: 20%;
-    margin-left: 15%;
-}
+
 
 .logoContainer, .nav-links {
     display: flex;
@@ -38,7 +35,7 @@ header{
 
 .logoContainer {
     flex: 1;
-    margin-top: 2%;
+    margin-top: 1.5%;
 }
 
 h1{
@@ -58,9 +55,34 @@ nav {
 }
 
 .nav-link {
-    color: #5f5f79;
+    color: #3e3e4e;
     font-size: 18px;
     text-decoration: none;
+}
+
+.landingpage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.landing-page-container {
+    height: 80%;
+    width: 100%;
+    background-color: rgba(34, 34, 34, 0.329);
+    box-shadow: 1px 0px 30px rgb(29, 29, 29);
+    display: flex;
+}
+
+.description {
+    width: 50%;
+    flex: 1;
+}
+
+.pic {
+
 }
 
 .second-section {
